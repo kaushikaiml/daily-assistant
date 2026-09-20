@@ -94,7 +94,7 @@ def research_topic(topic, avoid_titles):
     )
 
     response = gemini_client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.6-flash",
         contents=prompt,
         config=genai_types.GenerateContentConfig(
             tools=[genai_types.Tool(google_search=genai_types.GoogleSearch())],
