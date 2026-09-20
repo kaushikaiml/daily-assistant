@@ -94,7 +94,7 @@ def research_topic(topic, avoid_titles):
     )
 
     response = gemini_client.models.generate_content(
-        model="gemini-3.6-flash",
+        model="gemini-3-flash",
         contents=prompt,
         config=genai_types.GenerateContentConfig(
             tools=[genai_types.Tool(google_search=genai_types.GoogleSearch())],
@@ -168,7 +168,7 @@ def generate_image(title):
     )
     try:
         response = gemini_client.models.generate_content(
-            model="gemini-2.5-flash-image",
+            model="gemini-2.5-flash-image-preview",
             contents=prompt,
             config=genai_types.GenerateContentConfig(
                 response_modalities=["TEXT", "IMAGE"],
