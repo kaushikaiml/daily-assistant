@@ -7,22 +7,21 @@ from datetime import datetime, timedelta, timezone
 import requests
 from google import genai
 from google.genai import types as genai_types
-import anthropic
 
 # ---------- Config ----------
 IST = timezone(timedelta(hours=5, minutes=30))
 HISTORY_FILE = "history.json"
 LINKEDIN_VERSION = "202506"  # LinkedIn API version header (update if LinkedIn rejects it)
 LINKEDIN_API = "https://api.linkedin.com"
+TEXT_MODEL = "gemini-3.1-flash-lite"
+IMAGE_MODEL = "gemini-2.5-flash-image-preview"
 
 GEMINI_KEY = os.environ["GEMINI_KEY"]
-ANTHROPIC_KEY = os.environ["ANTHROPIC_KEY"]
 LI_TOKEN = os.environ["LI_TOKEN"]
 TG_TOKEN = os.environ["TG_TOKEN"]
 TG_CHAT_ID = os.environ["TG_CHAT_ID"]
 
 gemini_client = genai.Client(api_key=GEMINI_KEY)
-claude_client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
 BIO_FACTS = (
     "B.Tech Biotechnology student at Lovely Professional University (LPU), "
@@ -79,25 +78,29 @@ def this_week_entries(history):
             result.append(h)
     return result
 
-# ---------- Research (Gemini + Google Search grounding) ----------
+# ---------- Gemini text helper ----------
+def gemini_text(prompt):
+    response = gemini_client.models.generate_content(
+        model=TEXT_MODEL,
+        contents=prompt,
+    )
+    return (response.text or "").strip()
+
+# ---------- Research ----------
 def research_topic(topic, avoid_titles):
     avoid_text = ""
     if avoid_titles:
         avoid_text = "Do NOT repeat these already-covered stories/angles: " + "; ".join(avoid_titles) + ".\n"
 
     prompt = (
-        f"Research a specific, recent, interesting story or development in the area of: {topic}.\n"
+        f"Based on your knowledge, describe a specific, interesting story or development in the area of: {topic}.\n"
         f"{avoid_text}"
         "Respond in exactly this format:\n"
         "TITLE: <a short unique title for this specific story, under 10 words>\n"
-        "RESEARCH:\n<3-6 factual bullet points about this story, based on real, current information>"
+        "RESEARCH:\n<3-6 factual bullet points about this story>"
     )
 
-    response = gemini_client.models.generate_content(
-        model="gemini-3.1-flash-lite",
-        contents=prompt,
-        )
-    text = response.text or ""
+    text = gemini_text(prompt)
 
     title_match = re.search(r"TITLE:\s*(.+)", text)
     research_match = re.search(r"RESEARCH:\s*(.+)", text, re.DOTALL)
@@ -109,23 +112,18 @@ def research_topic(topic, avoid_titles):
         return None, None
     return title, research
 
-# ---------- Writing the post (Claude) ----------
+# ---------- Writing the post ----------
 def write_post(topic, title, research):
     prompt = (
         f"Write a LinkedIn post (150-200 words) in first person, simple English, "
         f"about this topic: {title} (category: {topic}).\n\n"
-        f"Base it ONLY on these researched facts:\n{research}\n\n"
+        f"Base it ONLY on these facts:\n{research}\n\n"
         f"You may mention these facts about the author ONLY if naturally relevant, and do not invent anything beyond them:\n{BIO_FACTS}\n\n"
         "Do not invent any personal experience, story, or achievement not listed above. "
         "Make it sound human and genuine, not like an ad. No hashtags overload — at most 3 relevant hashtags at the end. "
         "Return ONLY the post text, nothing else."
     )
-    response = claude_client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=600,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return response.content[0].text.strip()
+    return gemini_text(prompt)
 
 def write_recap_post(entries):
     posts_summary = "\n\n".join(f"- {e.get('topic')}: {e.get('title')}" for e in entries)
@@ -135,14 +133,9 @@ def write_recap_post(entries):
         "just reflect on and connect these:\n\n" + posts_summary + "\n\n"
         "Return ONLY the post text, nothing else."
     )
-    response = claude_client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=600,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return response.content[0].text.strip()
+    return gemini_text(prompt)
 
-# ---------- Fact-check safety gate (Claude) ----------
+# ---------- Fact-check safety gate ----------
 def fact_check(post_text, research):
     prompt = (
         f"Research notes:\n{research}\n\n"
@@ -150,14 +143,9 @@ def fact_check(post_text, research):
         "Check if every factual claim in the post draft is supported by the research notes above. "
         "Reply with exactly 'OK' if fully supported, or 'FAIL: <short reason>' if any claim is not supported."
     )
-    response = claude_client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=200,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return response.content[0].text.strip()
+    return gemini_text(prompt)
 
-# ---------- Image generation (Gemini) ----------
+# ---------- Image generation ----------
 def generate_image(title):
     prompt = (
         f"A clean, simple explainer-style diagram illustrating: {title}. "
@@ -165,7 +153,7 @@ def generate_image(title):
     )
     try:
         response = gemini_client.models.generate_content(
-            model="gemini-2.5-flash-image-preview",
+            model=IMAGE_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(
                 response_modalities=["TEXT", "IMAGE"],
