@@ -96,10 +96,7 @@ def research_topic(topic, avoid_titles):
     response = gemini_client.models.generate_content(
         model="gemini-3.1-flash-lite",
         contents=prompt,
-        config=genai_types.GenerateContentConfig(
-            tools=[genai_types.Tool(google_search=genai_types.GoogleSearch())],
-        ),
-    )
+        )
     text = response.text or ""
 
     title_match = re.search(r"TITLE:\s*(.+)", text)
