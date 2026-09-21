@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "date": "2026-09-21",
+    "time": "16:42",
+    "topic": "Current AI",
+    "status": "preview",
+    "title": "New WHO report calls for stronger ethics oversight of AI-related health research",
+    "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObWI0RE16NFp2cWNtSlloNzctM2ZXa0kyemh0NURIWUVaQVZHNlhld25kTEUwZkcyallVUHRoZUNfaXoyOHkwenRteEI2RzFKNUo1b0l0UTgtSHhMdjg5eUN2NnZLS05xU1VXSGQ2QklxQzFkQjhwNWVnRHZsVU9XZUdXOTlqbzI0YzFOeEw4UnZ2WGVvQi1HTVBoaU04bTNEME5RaVdvMHVFeElmNFVLN3NQcENOeFZTdjVRcGZB?oc=5",
+    "post": "I just read a new report from the World Health Organization about the need for stronger ethics oversight in AI-related health research. As a student, this really highlights how important it is to balance innovation with responsible practices when building tools for patients.\n\n→ AI in healthcare requires careful ethical guardrails to protect users.\n→ Research standards must evolve alongside new technological capabilities.\n→ Oversight is essential for building trust in medical AI systems.\n\nMy takeaway is that technical skills are only half the battle. We also need to deeply understand the ethical implications of the systems we design, especially when they involve sensitive health data. It is a reminder that the goal of our work should always be the safety and well-being of the people we aim to help.\n\nHow do you think we can best balance rapid AI innovation with necessary ethical standards in medical research?\n\nSource: World Health Organization\n\n#HealthcareAI #EthicsInAI #WHO #HealthTech",
+    "image": "images/2026-09-21.png",
+    "linkedin_url": "",
+    "reason": ""
+  }
+]
