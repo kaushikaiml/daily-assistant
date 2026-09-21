@@ -14,7 +14,7 @@ HISTORY_FILE = "history.json"
 LINKEDIN_VERSION = "202506"  # LinkedIn API version header (update if LinkedIn rejects it)
 LINKEDIN_API = "https://api.linkedin.com"
 TEXT_MODEL = "gemini-3.1-flash-lite"
-IMAGE_MODEL = "gemini-3.1-flash-lite-image"
+IMAGE_MODEL = "gemini-2.5-flash-image-preview"
 
 GEMINI_KEY = os.environ["GEMINI_KEY"]
 LI_TOKEN = os.environ["LI_TOKEN"]
