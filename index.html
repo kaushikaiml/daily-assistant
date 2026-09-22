@@ -2,110 +2,267 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily LinkedIn Assistant</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Assistant — Post History</title>
 <style>
   :root {
-    --bg: #f5f5f7;
-    --card: #ffffff;
-    --text: #1a1a1a;
-    --muted: #666;
-    --accent: #0a66c2;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #121212;
-      --card: #1e1e1e;
-      --text: #f0f0f0;
-      --muted: #aaa;
-      --accent: #4da3ff;
-    }
+    --bg: #0f1115;
+    --card: #171a21;
+    --card-hover: #1d2129;
+    --border: #262a33;
+    --text: #e8eaed;
+    --muted: #9aa0ab;
+    --accent: #4f8cff;
+    --green: #2ecc71;
+    --amber: #f5a623;
+    --radius: 14px;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    padding: 24px 16px 60px;
   }
-  h1 {
-    font-size: 22px;
-    margin-bottom: 4px;
+  .wrap { max-width: 900px; margin: 0 auto; }
+  header {
+    text-align: center;
+    margin-bottom: 28px;
   }
-  p.subtitle {
-    color: var(--muted);
-    margin-top: 0;
-    font-size: 14px;
+  header h1 {
+    font-size: 1.6rem;
+    margin: 0 0 6px;
+    background: linear-gradient(90deg, #4f8cff, #7ee0d6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
-  .card {
+  header p { color: var(--muted); margin: 0; font-size: 0.9rem; }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .stat {
     background: var(--card);
-    border-radius: 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
     padding: 16px;
-    margin-bottom: 12px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
   }
-  .card .date {
-    font-size: 12px;
+  .stat .num { font-size: 1.5rem; font-weight: 700; }
+  .stat .label { color: var(--muted); font-size: 0.75rem; margin-top: 4px; }
+
+  .filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .filters button {
+    background: var(--card);
+    border: 1px solid var(--border);
     color: var(--muted);
-    margin-bottom: 6px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    cursor: pointer;
   }
-  .card .topic {
-    display: inline-block;
+  .filters button.active {
     background: var(--accent);
-    color: #fff;
-    font-size: 11px;
-    padding: 2px 8px;
+    color: white;
+    border-color: var(--accent);
+  }
+
+  .entry {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    margin-bottom: 16px;
+    transition: border-color 0.2s;
+  }
+  .entry:hover { border-color: var(--accent); }
+
+  .entry-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .entry-meta { color: var(--muted); font-size: 0.78rem; }
+  .badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .badge.posted { background: rgba(46,204,113,0.15); color: var(--green); }
+  .badge.preview { background: rgba(245,166,35,0.15); color: var(--amber); }
+  .badge.skipped { background: rgba(255,99,99,0.15); color: #ff6363; }
+
+  .topic-tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    color: var(--accent);
+    background: rgba(79,140,255,0.12);
+    padding: 2px 10px;
     border-radius: 999px;
     margin-bottom: 8px;
   }
-  .card .title {
-    font-weight: 600;
-    margin-bottom: 6px;
+  .entry h3 { margin: 0 0 8px; font-size: 1rem; line-height: 1.4; }
+  .entry-body {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 14px;
   }
-  .card .post {
-    font-size: 14px;
-    white-space: pre-wrap;
-    color: var(--text);
+  .entry img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--border);
   }
-  .empty {
+  .entry-text {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    max-height: 4.5em;
+    overflow: hidden;
+    position: relative;
+  }
+  .entry-text.expanded { max-height: none; }
+  .toggle-link {
+    color: var(--accent);
+    font-size: 0.78rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 6px;
+  }
+  .entry-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 14px;
+    font-size: 0.78rem;
+  }
+  .entry-links a { color: var(--accent); text-decoration: none; }
+  .entry-links a:hover { text-decoration: underline; }
+
+  .empty, .loading {
     text-align: center;
     color: var(--muted);
-    margin-top: 40px;
+    padding: 40px 0;
   }
 </style>
 </head>
 <body>
-  <h1>📅 Daily LinkedIn Assistant</h1>
-  <p class="subtitle">History of automated posts</p>
-  <div id="list"></div>
-  <p class="empty" id="empty" style="display:none;">No posts yet.</p>
+<div class="wrap">
+  <header>
+    <h1>Daily Assistant</h1>
+    <p>Automated LinkedIn post history</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="filters" id="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="posted">Posted</button>
+    <button data-filter="preview">Preview</button>
+    <button data-filter="skipped">Skipped</button>
+  </div>
+
+  <div id="list" class="loading">Loading history…</div>
+</div>
 
 <script>
-  fetch('history.json?t=' + Date.now())
-    .then(r => r.json())
-    .then(data => {
-      const list = document.getElementById('list');
-      if (!data.length) {
-        document.getElementById('empty').style.display = 'block';
-        return;
-      }
-      data.slice().reverse().forEach(entry => {
-        const div = document.createElement('div');
-        div.className = 'card';
-        const date = new Date(entry.date);
-        div.innerHTML = `
-          <div class="date">${date.toLocaleString()}</div>
-          <div class="topic">${entry.topic || ''}</div>
-          <div class="title">${entry.title || ''}</div>
-          <div class="post">${(entry.post || '').replace(/</g, '&lt;')}</div>
-        `;
-        list.appendChild(div);
-      });
-    })
-    .catch(() => {
-      document.getElementById('empty').style.display = 'block';
-    });
+  let allEntries = [];
+  let currentFilter = "all";
+
+  async function loadHistory() {
+    try {
+      const res = await fetch("history.json?t=" + Date.now());
+      const data = await res.json();
+      allEntries = data.slice().reverse(); // newest first
+      renderStats();
+      render();
+    } catch (e) {
+      document.getElementById("list").innerHTML =
+        '<div class="empty">Could not load history.json</div>';
+    }
+  }
+
+  function renderStats() {
+    const total = allEntries.length;
+    const posted = allEntries.filter(e => e.status === "posted").length;
+    const preview = allEntries.filter(e => e.status === "preview").length;
+    const skipped = allEntries.filter(e => e.status === "skipped").length;
+    const statsEl = document.getElementById("stats");
+    statsEl.innerHTML = `
+      <div class="stat"><div class="num">${total}</div><div class="label">Total Runs</div></div>
+      <div class="stat"><div class="num">${posted}</div><div class="label">Posted Live</div></div>
+      <div class="stat"><div class="num">${preview}</div><div class="label">Previews</div></div>
+      <div class="stat"><div class="num">${skipped}</div><div class="label">Skipped</div></div>
+    `;
+  }
+
+  function render() {
+    const list = document.getElementById("list");
+    const filtered = currentFilter === "all"
+      ? allEntries
+      : allEntries.filter(e => e.status === currentFilter);
+
+    if (filtered.length === 0) {
+      list.className = "empty";
+      list.innerHTML = "No entries found.";
+      return;
+    }
+
+    list.className = "";
+    list.innerHTML = filtered.map((e, i) => `
+      <div class="entry">
+        <div class="entry-top">
+          <div>
+            <span class="topic-tag">${e.topic || "—"}</span><br>
+            <span class="entry-meta">${e.date} · ${e.time}</span>
+          </div>
+          <span class="badge ${e.status}">${e.status}</span>
+        </div>
+        <h3>${e.title || "Untitled"}</h3>
+        <div class="entry-body">
+          <img src="${e.image}" onerror="this.style.display='none'" alt="">
+          <div>
+            <div class="entry-text" id="text-${i}">${(e.post || "").replace(/\\n/g, "<br>")}</div>
+            <span class="toggle-link" onclick="toggleText(${i})">Read more</span>
+          </div>
+        </div>
+        <div class="entry-links">
+          ${e.source_url ? `<a href="${e.source_url}" target="_blank">Source</a>` : ""}
+          ${e.linkedin_url ? `<a href="${e.linkedin_url}" target="_blank">View on LinkedIn</a>` : ""}
+          ${e.reason ? `<span style="color:#ff6363">Reason: ${e.reason}</span>` : ""}
+        </div>
+      </div>
+    `).join("");
+  }
+
+  function toggleText(i) {
+    const el = document.getElementById("text-" + i);
+    el.classList.toggle("expanded");
+  }
+
+  document.getElementById("filters").addEventListener("click", (e) => {
+    if (e.target.tagName !== "BUTTON") return;
+    document.querySelectorAll("#filters button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    currentFilter = e.target.dataset.filter;
+    render();
+  });
+
+  loadHistory();
 </script>
 </body>
 </html>
