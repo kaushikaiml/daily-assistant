@@ -35,7 +35,7 @@ except ImportError:  # image card will be skipped if Pillow is missing
 # =====================================================================
 # SETTINGS  (you can edit these lines on GitHub)
 # =====================================================================
-PREVIEW_ONLY = True   # True  = send the draft to Telegram ONLY (nothing goes to LinkedIn)
+PREVIEW_ONLY = False   # True  = send the draft to Telegram ONLY (nothing goes to LinkedIn)
                       # False = post live on LinkedIn.  Change to False after you like the previews.
 USE_AI_IMAGE = False  # False = draw a clean summary card with code (free, always works)
                       # True  = try Gemini image models first (usually needs a paid plan)
