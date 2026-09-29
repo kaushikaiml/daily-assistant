@@ -106,5 +106,17 @@
     "image": "images/2026-09-26.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7509496492764758016",
     "reason": ""
+  },
+  {
+    "date": "2026-09-29",
+    "time": "12:39",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "Regulating AI Like a Doctor: FDA Floats Competency-Based Path for Generative AI-Enabled Devices",
+    "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQWlGeENrTzItSk9OZjdWTXoyYjFyOGNDWUZVNWNycjVPLVFsU2l1Wno0YXdIZWp3X0xsR1g2eGZ4X01rRWl6a1dBZ25jR2JjWnlFdHF6ZEtuY3hJUTZQaWV5Z1Ftc3k2ZllENUM5amFMWWtrdTctdjhjUmFYVmdIa2ZfeUFIalREblA2VzdBUnRFeWhDaHVFcFNXMUZrckFzd3lEbDJERjZtaDlxTTZhTzVxSG9CTlk4ZXNoRFF4eHNaSk9aMWxESVAtd0pfRkNib2ZZblFVcVZBUC10Q2M0?oc=5",
+    "post": "I recently read that the FDA is considering a new competency-based path for regulating generative AI in healthcare. As a B.Tech Biotechnology student at LPU, this shift feels like a necessary step toward making medical AI safer and more reliable.\n\nBuilding MediScan AI, my own app for cancer detection, taught me that technical accuracy is only part of the challenge. The real test is ensuring these tools perform consistently in clinical settings. When I worked as a data analyst trainee, I saw firsthand how much data quality matters for meaningful outcomes.\n\n→ The FDA is looking at regulating AI similarly to how doctors are evaluated.\n→ Competency-based testing could help manage the risks of generative AI devices.\n→ Clear regulatory paths are essential for building trust in healthcare technology.\n\nIn my opinion, we need to treat AI development with the same rigor we apply to medical training. It is the only way to ensure patient safety remains the priority. How do you think we should best balance innovation and regulation in healthcare AI?\n\nSource: Cooley\n\n#HealthcareAI #Biotech #MedicalAI #FDA #StudentLife",
+    "image": "images/2026-09-29.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7510596558141407232",
+    "reason": ""
   }
 ]
