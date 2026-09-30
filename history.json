@@ -118,5 +118,17 @@
     "image": "images/2026-09-29.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7510596558141407232",
     "reason": ""
+  },
+  {
+    "date": "2026-09-30",
+    "time": "12:30",
+    "topic": "Biotechnology",
+    "status": "posted",
+    "title": "USA: Senators Young and Hassan introduce bills to protect biotechnology data and infrastructure",
+    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ01lc3RURFVmYXNWRFVnZEhIdFFiNW8zczd5UXc4ejFjSHFTaUFOZzM5R1FIUV9BTGJhREVjdmk5Y1FLYjlIVURRTTZhQ3JSTEtzTmNLN3U3VjkzRDE1SzFMOVdHT2JNdnhJd19KOXA0eVV3UWtpcTJrNUR0TlBUaWU2MzJWY3dTZUQ4?oc=5",
+    "post": "I have been thinking a lot about the intersection of biotechnology and data security recently. As a B.Tech Biotechnology student at LPU, I see how much sensitive information we handle, especially while working on projects like my AI cancer detection app, MediScan AI.\n\nI recently read that U.S. Senators Young and Hassan have introduced new bills aimed at protecting biotechnology data and infrastructure. This is a significant step for our field, as the security of biological data is just as critical as the innovation itself.\n\nMy experience as a data analyst trainee taught me that data integrity is the foundation of any reliable model. Seeing policy catch up to these technical needs is encouraging.\n\n→ Protecting biotech data is essential for future innovation.\n→ Infrastructure security supports safer healthcare technology development.\n→ Regulations are evolving to match our digital progress.\n\nI believe that as we build more AI tools for healthcare, we must prioritize privacy from the start. How do you think these new regulations will impact the speed of biotech research?\n\nSource: DataGuidance\n\n#Biotechnology #DataSecurity #HealthcareAI #LPU",
+    "image": "images/2026-09-30.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7510956672220102658",
+    "reason": ""
   }
 ]
