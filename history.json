@@ -142,5 +142,17 @@
     "image": "images/2026-10-01.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7511325329781874688",
     "reason": ""
+  },
+  {
+    "date": "2026-10-02",
+    "time": "12:42",
+    "topic": "Recent discoveries in biology",
+    "status": "posted",
+    "title": "Swedish researchers create an 'AI scientist' that designs and runs its own experiments",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcWc1UzBISW9FSW1TeGo5aTIwUjlXeG16SVhZUHFxQ0J1Z0ZaNVE3a0xpTDJwM0dySmVSSGFBWWJ2V2swNWl6ZmtfaVdMT1FxaGxLQ3JOM1lhaWVmZHpfeUh2b2p0VjM2c3p1U0lSTzBiVU5QMmVEcmdBc3hsM2dwOF85X0ZwWU1vNU5YcnJZZ29qamtndFd5TVNCRFI5Rjl1S1Z1UVR6d3owejg1TVcxTUhmcUprM3VUOWc?oc=5",
+    "post": "I recently read that Swedish researchers have developed an 'AI scientist' capable of designing and running its own experiments. As a Biotechnology student at LPU with a strong interest in healthcare AI, this really caught my attention.\n\nBuilding my own project, MediScan AI, taught me how complex it is to integrate machine learning into cancer detection. Seeing AI move toward autonomous scientific research makes me think about how much faster we could solve medical challenges in the future.\n\n→ AI is shifting from a tool for analysis to an active researcher.\n→ Automating experimental design could significantly speed up biological discovery.\n→ The role of human scientists may evolve toward guiding and validating these systems.\n\nMy experience as a data analyst trainee showed me that data is only as good as the questions we ask it. I believe the real value lies in how we bridge these automated findings with clinical expertise.\n\nHow do you think AI-driven research will change the way we approach medical breakthroughs?\n\nSource: streamlinefeed.co.ke\n\n#Biotechnology #ArtificialIntelligence #HealthcareAI #LPU",
+    "image": "images/2026-10-02.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7511684467669913601",
+    "reason": ""
   }
 ]
