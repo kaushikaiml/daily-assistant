@@ -154,5 +154,17 @@
     "image": "images/2026-10-02.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7511684467669913601",
     "reason": ""
+  },
+  {
+    "date": "2026-10-03",
+    "time": "12:14",
+    "topic": "AI meets biotech",
+    "status": "posted",
+    "title": "‘We’ve been taking our time’: Buzzy AI biotech Xaira reveals antibody platform, first taste of pipeline",
+    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQzRSdkR0cFNuSVE0ODl6em9Dbk9RbU1hcTV4WEZDcnZNclhNRUpPVU9BYldLbXV1OTNtUmNabmVLek1sSUNoWDQtaDAta1FPZWpBVGZ5TnhMS3lIX2JZZGZoSDJXVHgzbzRnQnJTN0pyX1I0WllqUnM2LXUyaWI2T25tUnpYQ2pkcElSY01NUDEzcVJmTEZpbjRkQ2lWNEJ6bVNST3BKOHgwTEd5RURMYjdFVFJYMVpkODJmRw?oc=5",
+    "post": "Seeing the latest news about Xaira revealing their antibody platform made me pause and reflect on my own journey in biotech. As a B.Tech Biotechnology student at LPU, I have always been fascinated by the intersection of healthcare and artificial intelligence. \n\nBuilding MediScan AI, my own app for cancer detection, taught me that these technologies require patience and precision rather than just speed. My recent experience as a data analyst trainee further showed me how critical clean data is when building medical tools. \n\nHere is what I am learning:\n\n→ AI development in healthcare is a marathon, not a sprint.\n→ Technical tools are only as good as the underlying data.\n→ Integrating AI into biology requires a very thoughtful approach.\n\nI believe the most successful biotech solutions will be those that prioritize accuracy and safety over the hype cycle. We are still in the early stages of this field, and there is so much to learn. \n\nWhat do you think is the biggest challenge when applying AI to complex biological data?\n\nSource: Fierce Biotech\n\n#Biotech #HealthAI #StudentLife #DataAnalytics",
+    "image": "images/2026-10-03.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7512039985202647040",
+    "reason": ""
   }
 ]
