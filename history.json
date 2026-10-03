@@ -166,5 +166,17 @@
     "image": "images/2026-10-03.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7512039985202647040",
     "reason": ""
+  },
+  {
+    "date": "2026-10-03",
+    "time": "22:24",
+    "topic": "AI meets biotech",
+    "status": "posted",
+    "title": "Google DeepMind develops watermark for AI generated proteins",
+    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblR6djF4NEd6STJEZGNQTU9pSWhnRFlMd3Z1U0ZRUHNoM2tlU1lDbkk3c083dDhEX0RCaUZ2dmhMQVBtQ28xVVdpcUhhSGdZTmZBYnBDdlpWMTZ2SUpuTmpNRjNveUZMa1plR2c3bEtJRG1tZWJqdG85dUhWVmZ6bHpYZVlKT2pKVjkyYnl4Yk5NV0g2ZkpsNkJrVUR1dFhFbWdLTnd4blDSAagBQVVfeXFMT25UenYxeDRHekkyRGRjUE1PaUloZ0RZTHd2dVNGUVBzaDNrZVNZQ25JN3NPN3Q4RF9EQmlGdnZoTEFQbUNvMVVXaXFIYUhnWU5mQWJwQ3ZaVjE2dklKbk5qTUYzb3lGTGtaZUdnN2xLSURtbWVianRvOXVIVlZmemx6WGVZSk9qSlY5MmJ5eGJOTVdINmZKbDZCa1VEdXRYRW1nS053eG5Q?oc=5",
+    "post": "I have always been fascinated by how AI can transform healthcare. As a B.Tech Biotechnology student at LPU, I spend a lot of time thinking about the intersection of these two fields. Recently, I read that Google DeepMind has developed a way to watermark AI-generated proteins. This is a significant step forward for transparency in biotechnology research.\n\nMy journey building MediScan AI, an app for cancer detection, taught me that while AI is powerful, we must be careful about how we verify the results it produces. My time as a data analyst trainee further showed me the importance of data integrity.\n\n→ AI is now being used to design complex protein structures.\n→ Watermarking helps track the origin of these synthetic biological designs.\n→ Authenticity is becoming just as important as the innovation itself.\n\nI believe that as we integrate AI into medicine, keeping our research transparent is the only way to build real trust. How do you think we should balance rapid AI innovation with the need for clear verification in science?\n\nSource: dqindia.com\n\n#Biotechnology #ArtificialIntelligence #HealthcareAI #DeepMind",
+    "image": "images/2026-10-03.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7512193370178600960",
+    "reason": ""
   }
 ]
