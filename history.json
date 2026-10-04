@@ -178,5 +178,17 @@
     "image": "images/2026-10-03.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7512193370178600960",
     "reason": ""
+  },
+  {
+    "date": "2026-10-04",
+    "time": "12:37",
+    "topic": "Weekly recap",
+    "status": "posted",
+    "title": "",
+    "source_url": "",
+    "post": "This week, I spent time reflecting on the rapid evolution of healthcare AI. Across my studies as a B.Tech Biotechnology student at LPU and my work building MediScan AI, I have been focused on how we can make these tools more reliable. Whether it was reading about FDA regulations, data security bills, or autonomous AI scientists, one theme stood out: the need for rigor. My experience as a data analyst trainee taught me that technical tools are only as good as the data and the validation behind them. Innovation is exciting, but it must be balanced with safety and clear verification. I believe that we should prioritize accuracy and transparency over the hype cycle to truly move the field forward. As I continue learning, I am curious about your perspective on this balance. How do you decide which new AI technologies are truly ready for practical implementation in your own work?\n\n#HealthcareAI #Biotechnology #DataAnalytics #StudentLife",
+    "image": "images/2026-10-04.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7512408005938663424",
+    "reason": ""
   }
 ]
