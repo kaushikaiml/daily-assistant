@@ -202,5 +202,17 @@
     "image": "images/2026-10-05.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7512773753886597121",
     "reason": ""
+  },
+  {
+    "date": "2026-10-06",
+    "time": "13:16",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "More than 1,300 medical AI tools are cleared in the US, but only 3 were tested on patient outcomes",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaHkzYVh2WmRVTVNWNTRRRGNUb0NwVEFZMTFOa2ZuaW9MeS13bFNrOXpudnlqZ0ZxX28yQlozYTlXMi1haERWQ0dRb1VkVkw5YnZjaUJXVEJMZzA3TlpwTlEtUnBDQXYybU12ZHRTZHBXa2RiWVNzbGtwZjVwNFpzblJGb2FoLTg?oc=5",
+    "post": "I recently read that over 1,300 medical AI tools are cleared in the US, yet only three have been tested on actual patient outcomes. As a B.Tech Biotechnology student at LPU with a deep interest in healthcare AI, this really made me pause.\n\nBuilding my own project, MediScan AI, taught me how complex it is to develop cancer detection tools. However, this data suggests we have a long way to go before these technologies are fully proven in clinical settings.\n\n→ Regulatory clearance does not always equal proven patient benefit.\n→ We need more focus on clinical outcome trials for AI.\n→ Data analysis skills are vital to understanding these gaps.\n\nMy takeaway is that technical accuracy is just the first step; real-world impact is what truly matters for patients. We need to bridge the gap between software development and medical validation.\n\nWhat do you think is the biggest hurdle to getting more AI tools tested on patient outcomes?\n\nSource: Yahoo\n\n#HealthcareAI #Biotech #MedicalAI #DigitalHealth",
+    "image": "images/2026-10-06.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7513142791779262464",
+    "reason": ""
   }
 ]
