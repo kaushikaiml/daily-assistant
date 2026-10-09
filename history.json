@@ -238,5 +238,17 @@
     "image": "images/2026-10-08.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7513866787751489537",
     "reason": ""
+  },
+  {
+    "date": "2026-10-09",
+    "time": "13:08",
+    "topic": "Recent discoveries in biology",
+    "status": "posted",
+    "title": "New 'computational microscope' simulates DNA packaging at more than ten times previous scale",
+    "source_url": "https://phys.org/news/2026-10-microscope-simulates-dna-packaging-ten.html",
+    "post": "I have always been fascinated by how technology can unlock the secrets of our biology. As a B.Tech Biotechnology student at LPU, I have spent a lot of time exploring the intersection of healthcare and AI, which led me to build MediScan AI for cancer detection and complete a data analyst trainee internship.\n\nRecently, I read that researchers have developed a new 'computational microscope' that simulates DNA packaging at ten times the previous scale. This is a significant step forward because understanding how chromatin organizes genetic material is crucial for seeing how DNA damage is repaired.\n\n→ Computational tools allow us to study molecular movements that are hard to capture.\n→ DNA packaging influences how genes are read inside the nucleus.\n\nMy takeaway is that computational modeling is becoming just as vital as lab work in modern biology. It is exciting to see software solving problems that were once impossible to observe directly.\n\nWhat is one area of biology where you think AI will make the biggest impact next?\n\nSource: phys.org - https://phys.org/news/2026-10-microscope-simulates-dna-packaging-ten.html\n\n#Biotechnology #HealthcareAI #ComputationalBiology #DNA",
+    "image": "images/2026-10-09.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7514227862732763136",
+    "reason": ""
   }
 ]
