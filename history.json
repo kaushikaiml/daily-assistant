@@ -262,5 +262,17 @@
     "image": "images/2026-10-10.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7514586985639088128",
     "reason": ""
+  },
+  {
+    "date": "2026-10-11",
+    "time": "13:00",
+    "topic": "Weekly recap",
+    "status": "posted",
+    "title": "",
+    "source_url": "",
+    "post": "This week, I reflected on how rapidly healthcare AI is evolving. Across my studies as a B.Tech Biotechnology student at LPU and my time as a data analyst trainee, I have been focused on how we can make these tools more reliable. Whether I was looking at new computational microscopes, cell therapy manufacturing, or the gap between regulatory clearance and clinical outcomes for medical AI, one theme stood out: the need for rigor. \n\nBuilding MediScan AI, my cancer detection app, taught me that innovation is only as good as the underlying data and validation. While it is exciting to see AI integrated into everything from insurance to drug discovery, we must prioritize accuracy and transparency over the hype cycle. Technical precision is just the first step; real-world impact for patients is what truly matters. I am learning that the most meaningful progress happens at the intersection of data science and biology. \n\nHow do you decide which new AI technologies are truly ready for practical implementation in your own work?\n\n#HealthcareAI #Biotechnology #DataAnalytics #StudentLife",
+    "image": "images/2026-10-11.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7514950441517047808",
+    "reason": ""
   }
 ]
