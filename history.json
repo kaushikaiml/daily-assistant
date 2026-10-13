@@ -286,5 +286,17 @@
     "image": "images/2026-10-12.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7515315332295741440",
     "reason": ""
+  },
+  {
+    "date": "2026-10-13",
+    "time": "13:27",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "FDA Warning Letter Tells Software Device Makers That Retraining AI Algorithms and Moving to the Cloud Can Require a New 510(k)",
+    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaVMxalJ2ZUpMQ2ZoamV5eTlYN0x5TlNMaHpsRjFxUzA4WHlETkRhcVNrczA5QVE5QjNteXRfaFh0RXRTVU5RMlVRcmZrOUZYYTliMFZfS3VkZ0JUb3lIZ1FGTGtxeE16Uy1jLTluWWNGNGdTTU5IWTRBMmNFUkY2MVBn?oc=5",
+    "post": "I recently read that the FDA is tightening its stance on AI software in healthcare. They have clarified that retraining algorithms or moving systems to the cloud might require a new 510(k) submission.\n\nAs a B.Tech Biotechnology student at LPU, this caught my attention. I have been exploring this intersection through my own project, MediScan AI, which focuses on cancer detection. During my recent data analyst trainee internship, I learned how sensitive medical data models are to even minor changes.\n\nHere is what I am thinking about this update:\n\n→ Regulatory compliance is just as important as the code itself.\n→ Small updates to AI models can have significant legal implications.\n→ Patient safety must remain the priority when scaling these technologies.\n\nMy takeaway is that building healthcare AI is not just about technical performance; it is about navigating a complex regulatory landscape to ensure reliability. It makes me realize that we need to design our development pipelines with these approvals in mind from day one.\n\nHow do you think these regulations will impact the speed of AI innovation in hospitals?\n\nSource: JD Supra\n\n#HealthcareAI #DigitalHealth #MedTech #Biotechnology",
+    "image": "images/2026-10-13.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7515682135920476160",
+    "reason": ""
   }
 ]
