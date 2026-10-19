@@ -346,5 +346,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Fact-check failed: The source text does not contain information about the author's identity, education, or personal projects (MediScan AI, LPU, internship)."
+  },
+  {
+    "date": "2026-10-19",
+    "time": "13:39",
+    "topic": "Current AI",
+    "status": "posted",
+    "title": "Explainable Artificial Intelligence as the Missing Link in Dementia Pa | JMDH",
+    "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbENHR3djRzNMSl9RckQ0cTJrV1d4QVNPTExfTzZCNVp6cVdYRHRPbE1CcERyVHF3ZExHWVIyX3dvN1ZRM2ZIaUZuc2t6V195MUpVb3hYYjAxVE12U0FLOERCOHZ3cEF6akh1N200LWRDbmhPM2lCUGNtYlFySE1ieVFjc01mdEV1dUJpazlFZ1hfVW9DSEZTc3FLLUk2blYtQ2dNbEEwQjdYOThpbnloR01uUl9wZmdUc0hvOTdULVFURGFXd0dsVG5yWmI?oc=5",
+    "post": "I recently spent time reading about Explainable Artificial Intelligence in dementia care. As a B.Tech Biotechnology student at LPU, I have always been fascinated by how we can bridge the gap between complex tech and patient outcomes. \n\nBuilding my own project, MediScan AI, taught me that creating an AI cancer detection app is only half the battle. The real challenge is making sure the technology is transparent and trustworthy for doctors and patients alike. My time as a data analyst trainee further showed me that data is only useful if we can truly explain the results behind the patterns.\n\n→ AI needs to be transparent to be effective in healthcare.\n→ Explainability is crucial for clinical adoption in dementia care.\n→ Data analysis skills are essential for building reliable medical tools.\n\nI believe that for AI to truly help in medicine, we must focus on clarity over complexity. If the experts cannot understand how a diagnosis is reached, they will not use it. \n\nWhat do you think is the biggest barrier to adopting AI in hospitals today?\n\nSource: Dove Medical Press\n\n#HealthcareAI #Biotechnology #ExplainableAI #MedTech",
+    "image": "images/2026-10-19.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7517859556803252224",
+    "reason": ""
   }
 ]
