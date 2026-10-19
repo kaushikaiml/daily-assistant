@@ -1,24 +1,21 @@
 # Daily LinkedIn Post
-# -------------------
-# Runs the agent once a day, then saves the updated history.json to the repository.
 # Location in the repository: .github/workflows/daily.yml
 
 name: Daily LinkedIn Post
 
 on:
-  # Scheduled run: 01:30 UTC = 07:00 AM IST.
-  # Note: GitHub may start scheduled runs late during periods of high load.
+  # 01:30 UTC = 07:00 AM IST
   schedule:
     - cron: '30 1 * * *'
-  # Allows a manual run from the Actions tab.
+  # Manual run from the Actions tab
   workflow_dispatch:
 
-# Ensures two runs never overlap.
+# Ensures two runs never overlap
 concurrency:
   group: daily-linkedin-post
   cancel-in-progress: false
 
-# Write access is required to commit history.json back to the repository.
+# Write access is required to commit history.json back to the repository
 permissions:
   contents: write
 
@@ -42,19 +39,20 @@ jobs:
       - name: Run the daily agent
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_KEY }}
           LI_TOKEN: ${{ secrets.LI_TOKEN }}
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: python agent.py
 
-      # 'always()' keeps this step running even when the agent skips or fails,
-      # so those outcomes are also recorded in history.json.
+      # always() keeps this step running even if the agent skips or fails
       - name: Commit updated history
         if: always()
         run: |
           git config --global user.name "daily-assistant-bot"
           git config --global user.email "bot@users.noreply.github.com"
           git add history.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update history"
-          git pull --rebase
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "Update history"
+          git pull --rebase -X theirs origin main
           git push
