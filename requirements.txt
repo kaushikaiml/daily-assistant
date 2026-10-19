@@ -1,4 +1,4 @@
-
+# Python dependencies for the Daily LinkedIn Agent
 google-genai
 requests
 pillow
