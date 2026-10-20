@@ -370,5 +370,17 @@
     "image": "images/2026-10-19.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7517862960623497216",
     "reason": ""
+  },
+  {
+    "date": "2026-10-20",
+    "time": "11:45",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "AHA details recommendations to FDA on regulatory frameworks for GenAI-enabled medical devices",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnI5T09vUUpOVnJyT3hzekJJN0Z4alFHVkM1b1FYTTVNbGhCWU1xdEZGNnNJamtoa3BPdi1oa2c0YzRFNDdtOHJmZGNDcXFFaTNxX1pEdlNIaVJsYW1FdDk0TFZqMXNGcFhYS2tndzdyMkViTzJ4Q2RwdkJzenFZaU9zb3EzTVJHQ1BMS05DN1BDcGphNFlKYU5WT3NtVzc3MDBvSGRYUzctdlFTaWdXdlE4SkJtVjdKNWxfUmVLLUZ5bjR5akEw?oc=5",
+    "post": "I have been following the news this week about the American Hospital Association sharing recommendations with the FDA regarding regulatory frameworks for GenAI-enabled medical devices. As a biotechnology student at LPU with a deep interest in healthcare AI, this topic really hits home for me.\n\nMy journey into this field started when I built MediScan AI, an app focused on cancer detection. Through that project, and my recent time as a data analyst trainee, I have realized that building AI is only half the battle. The other half is ensuring these tools are safe, reliable, and properly regulated for patient care.\n\n→ Clear regulations are essential for integrating AI into clinical settings.\n→ Balancing innovation with patient safety is the primary challenge.\n\nI believe that for AI to truly help doctors, we need transparent guidelines that hospitals can trust. It is encouraging to see these conversations happening at the highest levels of healthcare policy. \n\nWhat do you think is the biggest hurdle to getting AI tools approved for medical use?\n\nSource: American Hospital Association\n\n#HealthcareAI #MedTech #Biotechnology #HealthIT",
+    "image": "images/2026-10-20.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7518193061969944576",
+    "reason": ""
   }
 ]
