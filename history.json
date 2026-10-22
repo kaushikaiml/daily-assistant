@@ -394,5 +394,17 @@
     "image": "images/2026-10-21.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7518555319459794945",
     "reason": ""
+  },
+  {
+    "date": "2026-10-22",
+    "time": "11:48",
+    "topic": "Technology",
+    "status": "failed",
+    "title": "",
+    "source_url": "",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Gemini failed on all models: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the late"
   }
 ]
