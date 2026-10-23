@@ -406,5 +406,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Gemini failed on all models: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the late"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "11:41",
+    "topic": "Recent discoveries in biology",
+    "status": "posted",
+    "title": "Researchers develop AI tool to map microRNA binding sites on circular RNAs",
+    "source_url": "https://phys.org/news/2026-10-ai-tool-microrna-sites-circular.html",
+    "post": "I just read about a new AI tool designed to map microRNA binding sites on circular RNAs. This caught my attention because circular RNAs have a unique loop structure that is often misunderstood.\n\nResearchers found that treating these circular molecules like linear transcripts misses important information near the back-splice junction. This is where the two ends of the RNA connect, and it plays a major role in gene regulation.\n\n→ Circular RNAs form loops that influence how genes are regulated.\n→ Current methods often overlook sequence data at the back-splice junction.\n→ AI is helping us better map these specific binding sites.\n\nMy takeaway is that precision matters in biology. When we simplify complex structures, we risk losing the very data that explains how they function. It reminds me that the tools we build must be as nuanced as the biological systems they aim to analyze.\n\nHow do you think AI will change the way we approach complex genetic mapping in the coming years?\n\nSource: phys.org - https://phys.org/news/2026-10-ai-tool-microrna-sites-circular.html\n\n#Bioinformatics #AI #Genetics #Research",
+    "image": "images/2026-10-23.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7519279519732645888",
+    "reason": ""
   }
 ]
