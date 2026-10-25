@@ -430,5 +430,17 @@
     "image": "images/2026-10-24.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7519640621402238996",
     "reason": ""
+  },
+  {
+    "date": "2026-10-25",
+    "time": "11:57",
+    "topic": "Weekly recap",
+    "status": "posted",
+    "title": "",
+    "source_url": "",
+    "post": "This week, I spent time reflecting on the rapid evolution of healthcare AI and how it intersects with my studies as a B.Tech Biotechnology student at LPU. From gene therapy research and regulatory frameworks to new AI tools for genetic mapping, I have been exploring how we build reliable systems. My experiences building MediScan AI and working as a data analyst trainee have highlighted one common theme: the necessity for rigor and data integrity in everything we create.\n\nWhether it is navigating FDA requirements or understanding complex biological structures, I am learning that innovation is only as valuable as the underlying validation. Technical precision is just the first step toward creating real-world impact for patients. My takeaway is that we must prioritize accuracy and safety over the hype cycle to ensure these tools truly serve their purpose. We need to be careful about how we integrate these systems into our research workflows. \n\nHow do you balance the drive for rapid AI innovation with the need for rigorous safety and regulatory standards?\n\n#HealthcareAI #Biotechnology #DataAnalytics #MedTech",
+    "image": "images/2026-10-25.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7520008136242442240",
+    "reason": ""
   }
 ]
