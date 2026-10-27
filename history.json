@@ -454,5 +454,17 @@
     "image": "images/2026-10-26.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7520372931236110336",
     "reason": ""
+  },
+  {
+    "date": "2026-10-27",
+    "time": "12:02",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "YC-backed BioStack raises $9.5 million to turn messy hospital records into training data for medical AI",
+    "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNT293cENUMmxuS3BKdVU1TmI1SmlCWklZVVFVc1E0N0l2WFhKN0lVQ28zUGllSHFtWnZtWFRGN29tQVJyYXduMEZnMndSMlF3TjFjazc5Z1VUNWF6XzNZRzZvSGJNY19CX2F2VEdhNDFPYVBKNUY4emI3VlozU2diTjVBWXNqQ2k5VXlWQUt1Qkp5UjJIUzhxMWJPVTFDMy1wZHNlWDFvWTczZkNQYUZGYVhtNVE1UUpOY1lXZVNnaFotNDZKN2lnaG9DY1luazcyVlZuLTBXTF9JS2NZUEd6dHpB0gHiAUFVX3lxTE1Pb3dwQ1QybG5LcEp1VTVOYjVKaUJaSVlVUVVzUTQ3SXZYWEo3SVVDbzNQaWVIcW1adm1YVEY3b21BUnJhd24wRmcyd1IyUXdOMWNrNzlnVVQ1YXpfM1lHNm9IYk1jX0JfYXZUR2E0MU9hUEo1Rjh6YjdWWjNTZ2JONUFZc2pDaTlVeVZBS3VCSnlSMkhTOHExYk9VMUMzLXBkc2VYMW9ZNzNmQ1BhRkZhWG01UTVRSk5jWVdlU2doWi00Nko3aWdob0NjWW5rNzJWVm4tMFdMX0lLY1lQR3p0ekE?oc=5",
+    "post": "I have been thinking a lot about the future of healthcare AI after reading about BioStack raising $9.5 million to organize hospital records. As a biotechnology student at LPU, I know that data is the biggest hurdle in building reliable medical tools. \n\nI recently built MediScan AI, an app for cancer detection, and during my time as a data analyst trainee, I saw firsthand how messy raw data can be. Turning that chaos into structured information is what makes actual clinical progress possible.\n\n→ High-quality data is the foundation of any medical AI model.\n→ Transforming hospital records into usable datasets is a massive technical challenge.\n→ AI tools need clean data to function accurately in real-world settings.\n\nMy takeaway is that technology is only as good as the information we feed it. We need to focus as much on data infrastructure as we do on the algorithms themselves.\n\nWhat do you think is the biggest barrier to adopting AI in hospitals today?\n\nSource: Indian Startup News\n\n#HealthcareAI #Biotechnology #DataAnalytics #HealthTech",
+    "image": "images/2026-10-27.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7520734180171968513",
+    "reason": ""
   }
 ]
