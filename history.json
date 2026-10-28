@@ -466,5 +466,17 @@
     "image": "images/2026-10-27.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7520734180171968513",
     "reason": ""
+  },
+  {
+    "date": "2026-10-28",
+    "time": "12:31",
+    "topic": "Biotechnology",
+    "status": "posted",
+    "title": "CRISPR gene therapies face a reckoning with off-target genome edits",
+    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUG93VjdtcjIyNjlzMkhMZ2xlX05oZEhwX19QRHNYeDFWZjBJejVla0o4SmhNTGFja1c2ZXc4V29aMmpTTWp1YmczYk5oLTQteHByYXJsZHhFNG14bkZlZWt0NjlGR2UzdDlYUlo4dHlQYVQ5TzRLbENmM2tCcmoteGMycnZ1UFktVkRpMFNPNS1ULU1lajYw?oc=5",
+    "post": "I have been reading about the latest challenges in CRISPR gene therapies, and it is a sobering reminder of how much we still have to learn. While CRISPR technology is incredibly promising, a recent report highlights serious concerns regarding off-target genome edits. \n\nAs a B.Tech Biotechnology student at LPU, I find this balance between innovation and safety fascinating. It reminds me that building tools like my MediScan AI app requires more than just code; it needs a deep understanding of biological risks. \n\n→ CRISPR technology is currently facing a reckoning with off-target edits.\n→ Precision remains the biggest hurdle for clinical gene therapy success.\n→ Technical accuracy is non-negotiable when dealing with human genomes.\n\nMy takeaway is that we must prioritize safety testing as much as we prioritize development speed. We cannot afford to rush when the stakes are this high for patients. \n\nWhat do you think is the most important step to making gene editing safer for clinical use?\n\nSource: Bioengineer.org\n\n#Biotechnology #CRISPR #GeneEditing #HealthcareAI",
+    "image": "images/2026-10-28.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7521103841002536960",
+    "reason": ""
   }
 ]
