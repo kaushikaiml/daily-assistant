@@ -490,5 +490,17 @@
     "image": "images/2026-10-29.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7521471766720991233",
     "reason": ""
+  },
+  {
+    "date": "2026-10-30",
+    "time": "12:55",
+    "topic": "Recent discoveries in biology",
+    "status": "posted",
+    "title": "The human surfaceome: AI flags potential cell surface drug targets overlooked by major databases",
+    "source_url": "https://phys.org/news/2026-10-human-surfaceome-ai-flags-potential.html",
+    "post": "I recently read an article about how AI is identifying potential drug targets on the human surfaceome that major databases have missed. It is fascinating because over 65% of approved medicines work by binding to these specific cell surface proteins, yet scientists currently struggle with conflicting data about which proteins are actually there.\n\nAs a B.Tech Biotechnology student at LPU interested in healthcare AI, this really highlights the power of using machine learning to clean up and expand our biological knowledge. During my time building MediScan AI for cancer detection and my data analyst trainee internship, I learned that the quality of our data is just as important as the model itself.\n\n→ AI can uncover hidden targets that traditional databases overlook.\n→ Data consistency remains a massive hurdle in biological research.\n\nMy takeaway is that technology is only as good as the underlying data we feed it. We need better integration between AI tools and biological databases to speed up drug discovery. What role do you think AI should play in fixing these data discrepancies?\n\nSource: phys.org - https://phys.org/news/2026-10-human-surfaceome-ai-flags-potential.html\n\n#Biotechnology #HealthcareAI #DrugDiscovery #DataScience",
+    "image": "images/2026-10-30.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7521834812731719680",
+    "reason": ""
   }
 ]
