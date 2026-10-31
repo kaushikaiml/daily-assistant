@@ -502,5 +502,17 @@
     "image": "images/2026-10-30.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7521834812731719680",
     "reason": ""
+  },
+  {
+    "date": "2026-10-31",
+    "time": "12:43",
+    "topic": "AI meets biotech",
+    "status": "posted",
+    "title": "100 Million-Cell AI-Ready Dataset with Single-Cell and Proteomic Data Created by Parse and Nomic",
+    "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRXhqclpqVFUwaXFoRTFkeF8xZmdZUnJUX2xkSzZEUHBlbnI1OHAxUW05V1gxSmFxdDdxTUdQNGpicjNDYTEwTW1keHlWTW01OVdYNnJlNHZNN28zZWlkMVIyQ0R3LVdOLWNYTjdKcE84VUptYUlNVUJLaUhMV1pTRkpwOGhwYmRxZUphRVMtVGVlaFRCS3Y4WDZFNlpNU3pDdGxWclpqeGxvckYzMldvSm10NTBpM1djaFhld3RaVEhDc0FNekxmeTJudjhiVVZRZmNN?oc=5",
+    "post": "I have always been fascinated by how AI can transform healthcare, which is exactly why I am pursuing my B.Tech in Biotechnology at LPU. Recently, I came across news about a massive 100 million-cell dataset released by Parse and Nomic. This dataset combines single-cell and proteomic data, which is a major step forward for those of us building tools in this space. \n\nAs someone who built MediScan AI for cancer detection and spent time as a data analyst trainee, I understand how critical high-quality data is for training reliable models. Seeing this kind of information become available makes me optimistic about the future of medical diagnostics.\n\n→ Large datasets are the foundation for better healthcare AI models.\n→ Integrating proteomic data adds a new layer of biological insight.\n\nMy takeaway is that data accessibility is just as important as the algorithms themselves. Without clean, large-scale data, our models cannot truly serve patients effectively. \n\nHow do you think such massive biological datasets will change the way we approach early disease detection in the coming years?\n\nSource: Genetic Engineering and Biotechnology News\n\n#Biotechnology #HealthcareAI #DataScience #LifeSciences",
+    "image": "images/2026-10-31.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7522194073084997632",
+    "reason": ""
   }
 ]
