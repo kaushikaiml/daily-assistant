@@ -514,5 +514,17 @@
     "image": "images/2026-10-31.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7522194073084997632",
     "reason": ""
+  },
+  {
+    "date": "2026-11-01",
+    "time": "13:16",
+    "topic": "Weekly recap",
+    "status": "posted",
+    "title": "",
+    "source_url": "",
+    "post": "This week, I spent time reflecting on the rapid evolution of healthcare AI and its role in my B.Tech Biotechnology studies at LPU. My posts explored everything from CRISPR gene therapy challenges and AI-supported learning in nursing to the power of machine learning in drug discovery.\n\nBuilding my MediScan AI app and working as a data analyst trainee have taught me that innovation is only as valuable as the underlying validation. Throughout all these topics, one common theme stands out: the necessity for rigor and data integrity in everything we create.\n\n→ High-quality data is the essential foundation for any reliable medical AI model.\n→ Technical precision and safety must always be prioritized over the hype cycle.\n→ AI tools are best used as supplements to enhance human expertise.\n\nMy takeaway is that we must focus as much on data infrastructure as we do on the algorithms themselves to ensure these tools truly serve patients. How do you balance the drive for rapid AI innovation with the need for rigorous safety and regulatory standards?\n\n#HealthcareAI #Biotechnology #DataAnalytics #MedTech",
+    "image": "images/2026-11-01.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7522564666519351296",
+    "reason": ""
   }
 ]
