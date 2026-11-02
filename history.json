@@ -526,5 +526,17 @@
     "image": "images/2026-11-01.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7522564666519351296",
     "reason": ""
+  },
+  {
+    "date": "2026-11-02",
+    "time": "13:22",
+    "topic": "Current AI",
+    "status": "skipped",
+    "title": "Artificial Intelligence Versus Human Interpretation in Diagnostic Radiology: A Systematic Review of Diagnostic Accuracy and Operational Efficiency",
+    "source_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPXzRWdm1ncnFCckFlWUh2dUllbTFaeXJEYzUxcEl1VkJWSXo3Rk1kZ1daQU9xUWp5Y2dySzdqSDh2bGJEVzJfdTd4N0pzcFF3dHAySzJYTTh4MUtDNnRDRnhFaXZnMVFtYUxOenJUQzN3ejlMU19sTExQQk8wT2xsMUM2SzVCcHVCWG1ZZXM0MGJ5d3F3bFZGZmV5WTBQbWM3RUFzWHQ1UzNDcUtQRTZ6c1phbmNHRTA0WDV0cS0tMVVTb19SUXpLTmpCZWpzc0NLcW9qRnhoSldoYmV0YTZGYll0bUFUb2puX0VuQ2pobFowNzE5a0VSWktKTGhVVjhKSk02aG16UjlhTGw0c1kyM3dR?oc=5",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Fact-check failed: The source text does not mention the author's name, their status as a student at LPU, their project 'MediScan AI', or their history as a data analyst trainee."
   }
 ]
