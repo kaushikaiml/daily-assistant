@@ -538,5 +538,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Fact-check failed: The source text does not mention the author's name, their status as a student at LPU, their project 'MediScan AI', or their history as a data analyst trainee."
+  },
+  {
+    "date": "2026-11-03",
+    "time": "13:41",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "Brainomix Says Biomarker Qualification Is Next Step For Its FDA-Cleared Lung AI Software",
+    "source_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxObUs4RVFMOWxiZ0RYWFlUTHpDYjNpcEtwMkNhb21CYWUzcTBsakl4WTRDYUotWGxCRzQ1bTdmdndpWHA5UDdhdGVqdmxrcDZCVGdxOWlIdXhNb05HTW9CeTl2Y2s5Z2RJOFRmWVp6RDg5bl9jdGUxRkp0ejlTU3JsckpZeWdBYlg5akRESlBTYkU0dzN3M3VMaWZfQVFCaEN3V05IbklmSDRtYTNQYWlMaWgtdTRQb3dvV0huZG50S2loSk5rVW04SHdWcm1haXdici0wUVhhdERQMUMwZzZtcmNUNV9uVXJfaGlGdHZyX2Zpd2tydV9kTUl6bWlIakNScWRDc0dkeUhNZUt3YUN5d2Nn?oc=5",
+    "post": "I recently read about Brainomix moving toward biomarker qualification for their lung AI software, and it really caught my attention. As a B.Tech Biotechnology student at LPU, I have been focused on how we can bridge the gap between complex medical data and patient care.\n\nBuilding my own project, MediScan AI, taught me that detection is only the first step. To make these tools truly effective in a clinical setting, we need to go deeper into validating the biological markers that drive these insights.\n\n→ AI in healthcare needs rigorous validation to be trusted.\n→ Biomarker qualification is a vital step for clinical adoption.\n→ Combining biotechnology with software development creates better diagnostic tools.\n\nMy time as a data analyst trainee showed me that data is only as good as the context behind it. I believe the future of healthcare AI lies in this precision, moving beyond simple image recognition toward biological understanding.\n\nWhat do you think is the biggest hurdle for AI tools trying to gain clinical acceptance today?\n\nSource: Medtech Insight\n\n#HealthcareAI #Biotech #DigitalHealth #MedicalImaging",
+    "image": "images/2026-11-03.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7523295912224292865",
+    "reason": ""
   }
 ]
