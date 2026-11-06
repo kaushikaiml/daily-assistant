@@ -574,5 +574,17 @@
     "image": "images/2026-11-05.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7524019172251586561",
     "reason": ""
+  },
+  {
+    "date": "2026-11-06",
+    "time": "13:40",
+    "topic": "Recent discoveries in biology",
+    "status": "posted",
+    "title": "New placenta-on-a-chip model allows engineers to study effects of environmental toxins",
+    "source_url": "https://phys.org/news/2026-11-placenta-chip-effects-environmental-toxins.html",
+    "post": "I have been thinking a lot about how technology can help us understand complex biological processes that are difficult to study. Recently, I read about a new placenta-on-a-chip model that allows researchers to safely observe the effects of environmental toxins like cadmium on pregnancy. \n\nAs a biotechnology student at LPU with an interest in healthcare AI, I find this approach fascinating. It shows how we can use engineering to solve ethical challenges in medical research without putting people at risk. \n\n→ This model helps study the impact of toxic metals on pregnancy outcomes. \n→ It provides a safer alternative to direct human study. \n→ It bridges the gap between engineering and reproductive biology. \n\nMy experience building MediScan AI and working as a data analyst trainee has taught me that data is only as good as the models we use to collect it. Seeing this innovation makes me realize that we need better tools to capture accurate biological data before we can even begin to apply AI effectively. \n\nWhat do you think is the biggest challenge in developing these types of biological models?\n\nSource: phys.org - https://phys.org/news/2026-11-placenta-chip-effects-environmental-toxins.html\n\n#Biotechnology #HealthcareAI #Innovation #Research",
+    "image": "images/2026-11-06.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7524382651131121664",
+    "reason": ""
   }
 ]
