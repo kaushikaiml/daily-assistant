@@ -610,5 +610,17 @@
     "image": "images/2026-11-08.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7525099559790817280",
     "reason": ""
+  },
+  {
+    "date": "2026-11-09",
+    "time": "13:47",
+    "topic": "Current AI",
+    "status": "skipped",
+    "title": "AI power rush sends data centres hunting for used turbines and jet engines",
+    "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbFFRQWRkVjczS1ZIelZTc0pKUVhEVzFLaWFDSS1GcnNCMEZld21WVEM3UDJ5U2h5MDhwdDVPLTliSnhjX1lfUi1XR3VhQ0tJS3hscF9PbXpLMjY5dm1FWDhiOGtnUERDNUZ4NjdEZXI1bEszeFpPVThMQTJiRkRRQzNpWGpQcjBMZFJVY2FFTUFwajFlbWZOX2MwNTZXWmNQRGFiV0F1RUVnRmo0eWdTdzF2MUVzSkxhUlBweXZJZC1WMkZwRkZRSQ?oc=5",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Fact-check failed: The post mentions the author is 'Mohit', but this information is not present in the source text.; The post mentions the author is a 'B.Tech Biotechnology student at LPU', which is not mentioned in the source text.; The post mentions the author built 'MediScan AI', which is not mentioned in the source text.; The post mentions the author was a 'data analyst trainee', which is not mentioned in the so"
   }
 ]
