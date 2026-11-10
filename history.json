@@ -622,5 +622,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Fact-check failed: The post mentions the author is 'Mohit', but this information is not present in the source text.; The post mentions the author is a 'B.Tech Biotechnology student at LPU', which is not mentioned in the source text.; The post mentions the author built 'MediScan AI', which is not mentioned in the source text.; The post mentions the author was a 'data analyst trainee', which is not mentioned in the so"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "14:06",
+    "topic": "AI in healthcare",
+    "status": "failed",
+    "title": "",
+    "source_url": "",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Gemini failed on all models: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the late"
   }
 ]
