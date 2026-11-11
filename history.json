@@ -634,5 +634,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Gemini failed on all models: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the late"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "13:26",
+    "topic": "Biotechnology",
+    "status": "posted",
+    "title": "Editas Medicine Plans Human Trial After Gene Therapy Slashed LDL 90% in Primate Study",
+    "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPczhabWpFaWZvWG5mLS14cC1NRXByd1M1WE5UZmlYN2xSWVJNOU5FaGFKSGtFbjM5Y010cFY5eW9FS1QzUzI3MGVOYW5BVDdkT3dHQTJ3OTh2dzZ3OENBWTZnY1pnR0ZjUkZnYktrNlJNb1B4enBwbzhTOGhLajdfVTFsdjktdl9Na2ZOWF9DSGFqcjJldUx4aUlNLW40UVhwX1FkcTRTSERXd3ZvVWZ3RFBJRmRud3RkWmloSHRlTVZNak96MFE4a21PQ3Z1S1JPSFoyOElkdUFwMUpa?oc=5",
+    "post": "I have always been fascinated by how technology can reshape healthcare. Recently, I read that Editas Medicine is planning human trials for a gene therapy that reduced LDL cholesterol by 90% in primates. As a biotechnology student at LPU, this kind of progress is exactly why I got into this field.\n\nMy journey so far has been about bridging the gap between biology and tech. From building MediScan AI for cancer detection to my time as a data analyst trainee, I have seen how data can turn complex biological problems into actionable solutions.\n\n→ Gene editing is moving from labs to human clinical applications.\n→ Significant cholesterol reduction in primates shows immense therapeutic potential.\n→ Integrating AI and biotech is essential for future medical breakthroughs.\n\nI believe the most exciting work happens at the intersection of these two fields. It is not just about the code or the biology alone, but how we use both to improve patient outcomes. What role do you think gene therapy will play in standard healthcare over the next decade?\n\nSource: MarketBeat\n\n#Biotechnology #HealthcareAI #GeneTherapy #LPU",
+    "image": "images/2026-11-11.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7526191210659614721",
+    "reason": ""
   }
 ]
