@@ -694,5 +694,17 @@
     "image": "images/2026-11-15.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7527642527907303424",
     "reason": ""
+  },
+  {
+    "date": "2026-11-16",
+    "time": "13:42",
+    "topic": "Current AI",
+    "status": "posted",
+    "title": "Apple launches new app to study how people use AI for health",
+    "source_url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "post": "I have been following how AI is changing healthcare, especially after building MediScan AI. Recently, Apple launched a new study to see how people use AI for health, and it caught my attention because of its focus on clinical accuracy. Instead of just another chatbot, they are testing how answers grounded in journals like Nature or The New England Journal of Medicine help users. \n\n→ They are prioritizing clinical grounding over general AI responses.\n→ User data is anonymized and not used for training models.\n→ The study focuses on how AI can prepare people for doctor visits.\n\nAs a B.Tech Biotechnology student, I think the most interesting part is their commitment to scientific rigor. It is a reminder that in healthcare, accuracy matters far more than speed. While I am still learning through my data analyst trainee internship, I find this approach very thoughtful for the future of medical tools. \n\nWhat do you think is the biggest challenge when integrating AI into personal health journeys?\n\nSource: TechCrunch - https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/\n\n#HealthAI #Biotechnology #DigitalHealth #Apple",
+    "image": "images/2026-11-16.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7528007180008980480",
+    "reason": ""
   }
 ]
