@@ -706,5 +706,17 @@
     "image": "images/2026-11-16.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7528007180008980480",
     "reason": ""
+  },
+  {
+    "date": "2026-11-17",
+    "time": "14:57",
+    "topic": "AI in healthcare",
+    "status": "posted",
+    "title": "Samsung Medical Center's AI tracks surgical actions, phases in video analysis",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wLW5BNlptTmlkSFFLbTRudjdlZmVMYldobWZrRVk1dkxLbFk2VW1icEtFeXdRQml3RURVbTRkd25sejE5bnlkZWRKb2NBYW02MURQTm9XSW5oLWN4dWp0RWNvdWRjOTh6TVlDR2NR0gFyQVVfeXFMT2ptcld3cXdRaTdjYnZuVkEzNVZ2cFNzdElWeEk0eVRsZ1NIdFB1djhGMy1lOEsycUVCVjZJSlprWjJqTVVhRHg3ZDdFblJrQWU0WmtWQnJWWlN1MlR3UFg4QWFvNVBPWERwc2xDMEhCUVF3?oc=5",
+    "post": "I just read that Samsung Medical Center is using AI to track surgical actions and phases through video analysis. As a B.Tech Biotechnology student at LPU, this really caught my attention. I have been focusing on healthcare AI, especially after building my own app, MediScan AI, for cancer detection. Seeing how AI can assist in the operating room makes me feel even more excited about the potential of this field.\n\nMy time as a data analyst trainee taught me that data is only as good as how we apply it. This medical application is a great example of turning complex video data into something useful for surgeons.\n\n→ AI can track specific surgical steps in real-time.\n→ Video analysis helps monitor complex medical procedures.\n→ Technology is bridging the gap between data and clinical practice.\n\nI believe the future of healthcare lies in these kinds of supportive tools rather than replacing human expertise. How do you think AI will change the way surgeons work in the next few years?\n\nSource: Korea Biomedical Review\n\n#HealthcareAI #Biotechnology #MedicalTechnology #DigitalHealth",
+    "image": "images/2026-11-17.png",
+    "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7528388440233648128",
+    "reason": ""
   }
 ]
