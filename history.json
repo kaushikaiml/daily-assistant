@@ -718,5 +718,17 @@
     "image": "images/2026-11-17.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7528388440233648128",
     "reason": ""
+  },
+  {
+    "date": "2026-11-18",
+    "time": "14:15",
+    "topic": "Biotechnology",
+    "status": "skipped",
+    "title": "AI Skills Every Biotechnology Student Should Learn",
+    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQ2VHdWxSYmpzLXhCbUc2OV9PcFNvdGlLTUxqMEI0NEZsdkVicWs5TGNqSnhrRW42TDE4aWVOSm5lSXFYU0VRdkF2Q1RvQVFSY3ctZFk5ZUdUNDhiZVZjVm9HeFp3T3dIMW1WS2dGdEJOdS1MZGNERVB6MmozdlJsV0E0cVNZal80TXhtcmdfdw?oc=5",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Fact-check failed: The source text does not contain any information about the author, their education at LPU, their project MediScan AI, or their internship experience."
   }
 ]
