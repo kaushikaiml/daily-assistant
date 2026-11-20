@@ -742,5 +742,17 @@
     "image": "images/2026-11-19.png",
     "linkedin_url": "https://www.linkedin.com/feed/update/urn:li:share:7529106312438267904",
     "reason": ""
+  },
+  {
+    "date": "2026-11-20",
+    "time": "14:18",
+    "topic": "Recent discoveries in biology",
+    "status": "failed",
+    "title": "AI virtual cell technology could reveal how genetic changes and drugs alter cells",
+    "source_url": "https://phys.org/news/2026-11-ai-virtual-cell-technology-reveal.html",
+    "post": "I have been thinking a lot about the intersection of biology and technology lately. As a Biotechnology student at LPU, I spend a lot of time exploring how we can use digital tools to solve medical challenges. I recently read about new AI virtual cell technology that helps us understand how genetic changes and drugs actually alter cells. \n\nIt is fascinating because current models can predict if someone might develop a disease, but they often struggle to explain the 'why' behind it or how to design the right treatment. \n\n→ AI can now help us visualize how drugs impact cellular structures.\n→ Understanding the mechanism of disease is just as important as predicting it.\n→ Bridging the gap between genetic data and effective treatment design is the next big step.\n\nFrom my experience building MediScan AI and working as a data analyst trainee, I have learned that data is only useful if it helps us understand the underlying biology. \n\nWhat are your thoughts on using AI to simulate biological processes in medicine?\n\nSource: phys.org - https://phys.org/news/2026-11-ai-virtual-cell-technology-reveal.html\n\n#Biotechnology #HealthcareAI #DigitalHealth #AIinBiology",
+    "image": "images/2026-11-20.png",
+    "linkedin_url": "",
+    "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
   }
 ]
