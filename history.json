@@ -754,5 +754,17 @@
     "image": "images/2026-11-20.png",
     "linkedin_url": "",
     "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
+  },
+  {
+    "date": "2026-11-21",
+    "time": "13:59",
+    "topic": "AI meets biotech",
+    "status": "skipped",
+    "title": "Big Pharma, with eye on Anthropic, says AI is shrinking drug discovery timelines",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORlJGWE45RkVJTGJ1UXJxWFlaMlNfcnQ4bkNxRlIyV2VYVm0yRVQyeS1UQW5ldEZybjQzOFlRUmRzNlRxaGMzR3FWVlc1NVZMNnJzeGlyeXJvdVFxaXJPOVhjY0J4OUdEbWg5X0Rza1owcllpM1ZaME9LSDlpS0JfcFhTZ29acnV3a3M3Z1dGVW1FRHZjdmNqZGQyeDc2S25sbTQ1TGNEdFdLVDRtU25lU3JVaXFVMXAzT0xkYU5LSEY1dExkRnNR?oc=5",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Fact-check failed: The post attributes biographical details (name: Mohit) that are not present in the provided source text."
   }
 ]
