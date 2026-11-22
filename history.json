@@ -766,5 +766,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Fact-check failed: The post attributes biographical details (name: Mohit) that are not present in the provided source text."
+  },
+  {
+    "date": "2026-11-22",
+    "time": "13:53",
+    "topic": "Weekly recap",
+    "status": "failed",
+    "title": "",
+    "source_url": "",
+    "post": "I have spent this week reflecting on how my B.Tech Biotechnology studies at LPU intersect with the rapid evolution of technology. My posts covered a wide range of topics, from the potential of gene therapy and cellular chimeras to the integration of advanced rehabilitation technology in clinical settings. I also looked at how Apple is prioritizing clinical grounding in health AI, how Samsung Medical Center uses video analysis for surgery, and how plasma technology is being applied to hydrogen production.\n\nBuilding MediScan AI and working as a data analyst trainee have shown me that innovation is only as valuable as the underlying validation. Throughout these topics, one common theme stands out: the necessity for rigor and data integrity in everything we create.\n\n→ High-quality data is the essential foundation for any reliable model.\n→ Technical precision must always be prioritized over the hype cycle.\n→ Technology is best used as a supplement to human expertise.\n\nMy takeaway is that we must focus as much on data infrastructure as we do on algorithms. How do you balance the drive for rapid innovation with the need for safety? 💡\n\n#HealthcareAI #Biotechnology #DataAnalytics #MedTech #Innovation",
+    "image": "images/2026-11-22.png",
+    "linkedin_url": "",
+    "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
   }
 ]
