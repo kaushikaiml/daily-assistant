@@ -778,5 +778,17 @@
     "image": "images/2026-11-22.png",
     "linkedin_url": "",
     "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
+  },
+  {
+    "date": "2026-11-23",
+    "time": "14:52",
+    "topic": "Current AI",
+    "status": "failed",
+    "title": "Gaming giant NC’s AI unit doubles external revenue target on physical AI push",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWaVd5ZkdlbXdWQjktX0JfRDdkMVVaUklFdkpGUENZTEVGRGJnNTZjQmRfeC1lRDJ6dTl3VXE2dkRNZUhMWVZNcU1JMnA5X0wzRUpoQzB1allGODZMaU00alJTVGJxN0F1Umk5UFBnUjMzTWlteUlUajREZE55STQ?oc=5",
+    "post": "I have been following how big gaming companies are shifting their focus toward physical AI lately. It is fascinating to see a major player like NC doubling its revenue targets in this space. As a biotechnology student at LPU, I often think about how these advancements in AI can translate into real-world solutions, much like my experience building MediScan AI for cancer detection. \n\nMy time as a data analyst trainee taught me that the most powerful AI applications are those that solve tangible problems. Seeing these shifts in the industry makes me realize that AI is moving far beyond just digital interfaces.\n\n→ AI is expanding rapidly into physical applications.\n→ Companies are setting ambitious revenue goals for new AI tech.\n→ Data analysis remains a core skill for any AI project.\n\nMy takeaway is that the future of AI is not just about software; it is about how we integrate it into the physical world. How do you see AI evolving to impact physical industries in the next few years?\n\nSource: KED Global\n\n#ArtificialIntelligence #Biotech #DataAnalytics #TechTrends",
+    "image": "images/2026-11-23.png",
+    "linkedin_url": "",
+    "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
   }
 ]
