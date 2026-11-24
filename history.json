@@ -790,5 +790,17 @@
     "image": "images/2026-11-23.png",
     "linkedin_url": "",
     "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
+  },
+  {
+    "date": "2026-11-24",
+    "time": "16:47",
+    "topic": "AI in healthcare",
+    "status": "skipped",
+    "title": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
+    "source_url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Fact-check failed: The post attributes the author's background to Mohit, a B.Tech student, which is not supported by the source text; the source text identifies the author as Katie Palmer."
   }
 ]
