@@ -802,5 +802,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Fact-check failed: The post attributes the author's background to Mohit, a B.Tech student, which is not supported by the source text; the source text identifies the author as Katie Palmer."
+  },
+  {
+    "date": "2026-11-25",
+    "time": "15:33",
+    "topic": "Biotechnology",
+    "status": "failed",
+    "title": "AI and gene therapy open new frontiers in cancer treatment",
+    "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3JWLWVkY2RWejM3SXhnNzlzSUM0Znk3NUt0cHZHb29vTUd2am9yXzF5Zm1NaHpMdkt6eVZSNFRIaDRlNEVBREJFTlpsN2hVam53dGFNenQtVFZabHg4bXF0bUNpU2pydnFqTE1waUxadEZ3am1yN2Y3LXZkcHVjTGdWbVNlQUNyRDhJUjZxb292ZjRXTGI0ZDNpRDZNR09iMmRIajVWeDM4Zw?oc=5",
+    "post": "",
+    "image": "",
+    "linkedin_url": "",
+    "reason": "Gemini failed on all models: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the late"
   }
 ]
