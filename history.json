@@ -814,5 +814,17 @@
     "image": "",
     "linkedin_url": "",
     "reason": "Gemini failed on all models: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the late"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "15:16",
+    "topic": "Technology",
+    "status": "failed",
+    "title": "Searching for New Drugs Without Losing Sight of the Patients",
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZEx2bXJMU0tYVkZZQVktR0dCVS1WT3VHaGo0TXg4bTNiREJNYzM1cVl5T2ZKU1dYSGVfN0NwTElDYXN5YXVOTk44YkRYQ3FVSUM4VGtxQWlndnpTbkxwSWFRcGZtZnh3NGVRN1JIXzdoelV2MkhMc2lQTmpYUGJiMm1IOWxhT2NfeDloNkFjempXaFp6ZndnM0E5UkFiSmQtZ19iRFViQnZmeEs2b3dVeU1rZ1A?oc=5",
+    "post": "I recently read an article about the drug discovery process and it really made me reflect on my own journey as a B.Tech Biotechnology student at LPU. While we often focus on the technical side of development, it is a great reminder that the ultimate goal is always the patient.\n\nMy interest in healthcare AI started with building MediScan AI, an app designed for cancer detection. During my time as a data analyst trainee, I learned how much raw information needs to be processed to find real value. Balancing complex data with the human element is the biggest challenge I have faced so far.\n\n→ Technology should always support the human side of medicine.\n→ Data analysis is critical for turning research into actual solutions.\n→ Patient needs must remain the priority in every development stage.\n\nMy takeaway is that technology is only as effective as the care it enables. How do you ensure that patient needs stay at the center of your technical projects? 💡\n\nSource: Technology Networks\n\n#Biotechnology #HealthcareAI #DrugDiscovery #StudentLife",
+    "image": "images/2026-11-26.png",
+    "linkedin_url": "",
+    "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
   }
 ]
