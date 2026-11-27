@@ -826,5 +826,17 @@
     "image": "images/2026-11-26.png",
     "linkedin_url": "",
     "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
+  },
+  {
+    "date": "2026-11-27",
+    "time": "15:22",
+    "topic": "Recent discoveries in biology",
+    "status": "failed",
+    "title": "Three Human Genetic-Interaction Maps Advance Systematic Mapping of Gene Functions",
+    "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeXh5WUJFYU5nVkxGUURWM0lHZ0pSUkljZ1Fud1R3Ql9aNGFUdl9rNXV5T090NWZ2ejVDUlBGQXdwZHdPSXVGUUFqXzlYVDhhOFNNbVFXaEdNYlhpcDhRUWI5REVwaEZiSE1wa2txS09WbjYzeWg0RWd6U3dkNDdjWmlXYzd1Y093VklQalo0SzFUOVRWZWtDdVJ5WnFEdVJsVmFTRm4xc0FJUQ?oc=5",
+    "post": "I recently read about how researchers have created three human genetic-interaction maps to better understand gene functions. As a Biotechnology student at LPU, I find this fascinating because it shows how systematic mapping can help us decode complex biological systems.\n\nMy interest in healthcare AI led me to build MediScan AI, an app for cancer detection. Seeing these new genetic maps makes me think about how much potential there is when we combine large-scale biological data with computational tools. My time as a data analyst trainee taught me that data is only as good as the questions we ask it.\n\n→ Mapping genetic interactions helps clarify how genes work together.\n→ Systematic approaches are essential for modern biological research.\n→ Data analysis is a core skill for future biotech breakthroughs.\n\nI believe the future of healthcare lies in our ability to translate these massive datasets into actionable medical insights. It is an exciting time to be studying at the intersection of biology and technology. What do you think is the biggest challenge in applying genetic data to AI-driven healthcare?\n\nSource: Bioengineer.org\n\n#Biotechnology #HealthcareAI #Genetics #DataScience",
+    "image": "images/2026-11-27.png",
+    "linkedin_url": "",
+    "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
   }
 ]
