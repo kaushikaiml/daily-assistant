@@ -838,5 +838,17 @@
     "image": "images/2026-11-27.png",
     "linkedin_url": "",
     "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
+  },
+  {
+    "date": "2026-11-28",
+    "time": "14:34",
+    "topic": "AI meets biotech",
+    "status": "failed",
+    "title": "China’s Tencent makes AI drug discovery breakthrough with Nature paper",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYUJVQW80Vk1pX0tzaEdkTmxIUmZITDZweW5JUEgzdHg5d0R2czE2R1dOWDlGYXZPNTBfNnJJcnJTLVY1NjJJZ2VGeU5vVmhKLVBCMkFUODk4Y2F3ZmJWS25IcnJOZUNYcWF3eTgxdmQ3N0xacUlES2hOSDhqblRCaVNDWFBycXdsMFF6S3AxaU0wazVCQUdRZ0IzWHluT3FCdjJHbzg0TWQtSjJCZFNqV3cxbkxQcmM4MFHSAboBQVVfeXFMUFVsU2Z2V2xQbmhtZTllaFdra0QwV3dhdGxRX1ZTQS1uY1dCUHp4RVdqcjN5eElKY1JvSnFPVU1YclFhNWlqTG1WYjhtTWdiVlhZV2p2Y1VFYmVNWDFGbENwOGNxMHJkLVZ5SFp0NzJ3LXhfMEZQRnZrLXpwYklqMC1hWmJrTTREVnFWS05rZy1lQTZrcVB1UHNSSmstYXExS0M5aXVDUEQzQk9tOFhhTVpsMUNTdzlIMXhB?oc=5",
+    "post": "I have been thinking a lot about the intersection of AI and biotechnology lately. As a B.Tech Biotechnology student at LPU, seeing how technology is reshaping our field is truly fascinating. Recently, I read about Tencent achieving a breakthrough in AI drug discovery, which was published in Nature. It is encouraging to see these advancements happening in real-time.\n\nDuring my time as a data analyst trainee and while building my own app, MediScan AI for cancer detection, I learned that data is the bridge between biology and digital solutions. Here is what this development means to me:\n\n→ AI can significantly speed up the drug discovery process.\n→ Integrating coding skills with biological research is essential for future scientists.\n→ Large-scale data analysis is becoming a core pillar of modern medicine.\n\nMy honest takeaway is that while these tools are powerful, they are most effective when paired with a deep understanding of biological processes. I am Mohit, and I am curious to hear your thoughts. How do you see AI changing the way we approach medical research in the coming years?\n\nSource: South China Morning Post\n\n#Biotech #ArtificialIntelligence #HealthcareAI #DrugDiscovery",
+    "image": "images/2026-11-28.png",
+    "linkedin_url": "",
+    "reason": "LinkedIn token expired or invalid. Generate a new token and update the LI_TOKEN secret."
   }
 ]
